@@ -11,13 +11,13 @@ function App() {
           Count is {count}
         </h1>
         <br />
-        <button onClick = {() => setCount((count) => count + 1)}>
+        <button onClick = {() => setCount(prev => prev + 1)}>
         increase count
         </button>
-        <button onClick={() => setCount((count) => count - 1)}>
+        <button disabled={count === 0} onClick={() => setCount(prev => prev -1)}>
         decrease count
         </button>
-        <button onClick={() => setCount((count) => count = 0)}>
+        <button onClick={() => setCount(0)}>
         click To reset
         </button>
       </div>
