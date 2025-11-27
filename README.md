@@ -11,7 +11,7 @@ A collection of React mini-projects built to learn and practice React concepts. 
 
 | # | Project | Description | Concepts Practiced | Live Demo |
 |---|---------|-------------|-------------------|-----------|
-| 1 | **[Counter App](./counter-app/)** | Interactive counter with increment/decrement | `useState`, Event Handling | NO |
+| 1 | **[Counter App](1.counter-app)** | Interactive counter with increment/decrement | `useState`, Event Handling | NO |
 | 2 | *Todo List* | Add, delete, and mark tasks as complete | `useState`, Lists, CRUD Operations | *Coming Soon* |
 | 3 | *Weather App* | Fetch and display weather data | `useEffect`, API Calls, Async/Await | *Coming Soon* |
 | 4 | *Calculator* | Basic arithmetic operations | State Management, Component Composition | *Coming Soon* |
