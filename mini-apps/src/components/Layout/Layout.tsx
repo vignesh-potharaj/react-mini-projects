@@ -11,7 +11,7 @@ function Layout() {
             <nav className='navbar'>
                 <Link to='/' className="logo">React Projects</Link>
                 <div className="nav-links">
-                    <Link to="/">Home</Link>
+                    <Link to="/">Home </Link>
                     {projects.map(proj=> (
                         <Link key = {proj.path} to={proj.path}>
                             {proj.name}
