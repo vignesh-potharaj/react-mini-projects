@@ -2,6 +2,7 @@
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Layout from './components/layout/Layout';
+import HomePage from './pages/HomePage';
 // import HomePage from './pages/HomePage';
 // import Counter from './projects/1.Counter/Counter';
 // import ColorPicker from './projects/2.ColorPicker/ColorPicker';
@@ -19,8 +20,8 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path = '/' element ={<Layout/>}>
-                    {/* <Route index element={<HomePage/>} />
-                    <Route path= 'counter' element={<Counter/>} />
+                   <Route index element={<HomePage />} />
+                    {/* <Route path= 'counter' element={<Counter/>} />
                     <Route path= 'color-picker' element={<ColorPicker/>} />
                     <Route path= 'temperature-conver' element={<TemperaturConverter/>} />
                     <Route path= 'tabs-component' element={<TabsComponent/>} />
